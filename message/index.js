@@ -1,2 +1,5 @@
 const greet = require("../greeting/index");
-console.log(greet);
+
+const msg = `Hello Rahul! ${greet}`;
+module.exports = msg;
+console.log(msg);
